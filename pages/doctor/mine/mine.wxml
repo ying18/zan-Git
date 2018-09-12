@@ -5,64 +5,16 @@
 <view class='container'>
 
   <view class='earnings_wrap'>
-    <text class='earnings_tit'>收益余额（元）</text>
+    <view>
+      <text class='earnings_more'>查看明细</text>
+      <text class='earnings_tit'>我的收益（元）</text>
+    </view>
     <text class='earnings_cont'>9214.00</text>
   </view>
 
-  <view>
-    <scroll-view class='earnings_lists' scroll-y='true'>
+  <view style='margin: 30rpx 0;padding:30rpx;background-color: #fff;font-size: 14px;'>我的资料</view>
+  <view style='margin: 30rpx 0;padding:30rpx;background-color: #fff;font-size: 14px;'>意见反馈</view>
 
-      <view class='earnings_lists_date'>
-        <text class='earnings_lists_y'>2018年9月</text>
-        <text class='earnings_lists_e'><text>收入 ￥109.80</text> / <text>提现 ￥9.00</text></text>
-      </view>
-      <view class='earnings_lists_list'>
-        <image class='earnings_lists_i' src='../../../images/icon-tixian.svg'></image>
-        <view class='earnings_lists_r'>
-          <text class='earnings_lists_n'>-9.00</text>
-          <text class='earnings_lists_c'>提现</text>
-          <text class='earnings_lists_t'>9月1日 18:00</text>
-        </view>
-      </view>
-      <view class='earnings_lists_list'>
-        <image class='earnings_lists_i' src='../../../images/icon-phone-call.svg'></image>
-        <view class='earnings_lists_r'>
-          <text class='earnings_lists_n'>+99.90</text>
-          <text class='earnings_lists_c'>电话咨询—欧阳锋</text>
-          <text class='earnings_lists_t'>9月1日 12:40</text>
-        </view>
-      </view>
-      <view class='earnings_lists_list'>
-        <image class='earnings_lists_i' src='../../../images/icon-message-square.svg'></image>
-        <view class='earnings_lists_r'>
-          <text class='earnings_lists_n'>+9.90</text>
-          <text class='earnings_lists_c'>图文咨询—杨过</text>
-          <text class='earnings_lists_t'>9月1日 8:09</text>
-        </view>
-      </view>
-    
-      <view class='earnings_lists_date'>
-        <text class='earnings_lists_y'>2018年8月</text>
-        <text class='earnings_lists_e'><text>收入 ￥109.80</text> / <text>提现 ￥0.00</text></text>
-      </view>
-      <view class='earnings_lists_list'>
-        <image class='earnings_lists_i' src='../../../images/icon-phone-call.svg'></image>
-        <view class='earnings_lists_r'>
-          <text class='earnings_lists_n'>+99.90</text>
-          <text class='earnings_lists_c'>电话咨询—欧阳锋</text>
-          <text class='earnings_lists_t'>8月23日 12:40</text>
-        </view>
-      </view>
-      <view class='earnings_lists_list'>
-        <image class='earnings_lists_i' src='../../../images/icon-message-square.svg'></image>
-        <view class='earnings_lists_r'>
-          <text class='earnings_lists_n'>+9.90</text>
-          <text class='earnings_lists_c'>图文咨询—杨过</text>
-          <text class='earnings_lists_t'>8月1日 8:09</text>
-        </view>
-      </view>
 
-    </scroll-view>
-  </view>
 
 </view>

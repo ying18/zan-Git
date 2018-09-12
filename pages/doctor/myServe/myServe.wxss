@@ -4,22 +4,25 @@
   display: flex;
   z-index: 99999;
   flex-direction: row;
+  align-content: center;
   height: 80rpx;
   line-height: 80rpx;
-  background-color: #222; 
   text-align: center;
-  color: #fff;
+  background-color: #fff;
 }
 
 .title-tabs-bar-text {
   display: block;
   flex: 1;
-  /*width: 50%;*/
   height: 100%;
+  color: #888;
+  border-bottom: 2px solid #888;
+  margin: 0 80rpx;
 }
 
 .title-tabs-bar-text-selected {
   color: #E55400;
+  border-bottom: 2px solid #E55400;
 }
 
 

@@ -1,0 +1,42 @@
+
+.earnings_lists{
+  height: calc(100vh - 383rpx);
+}
+.earnings_lists_date{
+  padding: 40rpx 40rpx 30rpx;
+  background-color: #FAF9F5;
+}
+.earnings_lists_y{
+  font-size: 16px;
+  display: block;
+}
+.earnings_lists_e{
+  opacity: 0.6;
+}
+.earnings_lists_list{
+  background-color: #fff;
+}
+.earnings_lists_i{
+  width: 48rpx;
+  height: 48rpx;
+  float: left;
+  text-align: center;
+  margin: 46rpx 0 46rpx 40rpx;
+}
+.earnings_lists_r{
+  border-bottom: 1px solid #FAF9F5;
+  padding: 30rpx 40rpx 30rpx 0;
+  margin-left: 116rpx;
+}
+.earnings_lists_n{
+  float: right;
+  font-size: 14px;
+}
+.earnings_lists_c{
+  display: block;
+  font-size: 14px;
+}
+.earnings_lists_t{
+  opacity: 0.6;
+  font-size: 10px;
+}

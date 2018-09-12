@@ -25,7 +25,7 @@ Page({
           active: true
         },
         {
-          "pagePath": "/pages/doctor/myServe/myServe",
+          "pagePath": "/pages/doctor/myServe/myServe?doctorid=0",
           "text": "我的咨询",
           "iconPath": "../../images/message.png",
           "selectedIconPath": "../../images/message-fill.png",
@@ -33,10 +33,10 @@ Page({
           active: false
         },
         {
-          "pagePath": "/pages/doctor/mine/mine",
-          "text": "我的收益",
-          "iconPath": "../../images/wallet.png",
-          "selectedIconPath": "../../images/wallet-fill.png",
+          "pagePath": "/pages/doctor/mine/mine?doctorid=0",
+          "text": "我的",
+          "iconPath": "../../images/my.png",
+          "selectedIconPath": "../../images/my-fill.png",
           "selectedColor": "#E55400",
           active: false
         }

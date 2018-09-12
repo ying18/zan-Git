@@ -4,6 +4,7 @@
     "pages/test/test",
     "pages/doctor/myServe/myServe",
     "pages/doctor/mine/mine",
+    "pages/doctor/mine/earnings/earnings",
     "pages/doctor/doctor",
     "pages/patient/patient",
     "pages/patient/doctor/doctor",

@@ -18,8 +18,8 @@ Page({
         {
           "pagePath": "/pages/patient/patient?patientid=0",
           "text": "我的医生",
-          "iconPath": "../../images/home.png",
-          "selectedIconPath": "../../images/home-fill.png",
+          "iconPath": "../../images/doctor.png",
+          "selectedIconPath": "../../images/doctor-fill.png",
           "selectedColor": "#E55400",
           active: true
         },
@@ -34,8 +34,8 @@ Page({
         {
           "pagePath": "",
           "text": "我的",
-          "iconPath": "../../images/wallet.png",
-          "selectedIconPath": "../../images/wallet-fill.png",
+          "iconPath": "../../images/my.png",
+          "selectedIconPath": "../../images/my-fill.png",
           "selectedColor": "#E55400",
           active: false
         }

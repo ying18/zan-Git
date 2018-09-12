@@ -2,31 +2,31 @@ var doctorData = [
   {
     "doctorid":0,
     "doctorIcon":"http://wx.allifetech.com/WeApp/zanzan/images/avatar.png",
-    "doctorName":"小龙女",
-    "doctor_keshi": "妇产科",
-    "doctor_level": "主任医师",
-    "doctor_hospital": "首都医科大学附属北京妇产医院",
+    "doctorName":"吴焱",
+    "doctor_keshi": "皮肤性病科",
+    "doctor_level": "主任医师 副教授",
+    "doctor_hospital": "首都医科大学附属北京地坛医院",
     "tag_hospital": "三甲医院",
     "zx_num": "29399",
-    "fw_num": "8.0",
+    "fw_num": "9.9",
     "price_twzx": "￥10",
     "price_dhzx": "￥50",
-    "scjb_cont": "不孕不育的诊治；卵巢功能减退；妇科内分泌疾病，如多囊卵巢综合征、子宫内膜异位症、功能失调性子宫出血(排卵期出血); 闭经; 流产、复发性流产、胚胎停育等",
-    "bjjs_cont": "北京大学医学院妇产科和美国威斯康星大学联合培养博士；上海仁济医院生殖医学中心博士后"
+    "scjb_cont": "皮肤病，美容，HPV，湿疣，梅毒，疱疹，妊娠性病母婴阻断，HIV，恐艾，高危行为风险评估，感染途径和方式溯源，事前预防事后阻断，性病心理咨询，夫妻及家庭传播防治，治疗方案个体化。",
+    "bjjs_cont": "医学博士，北京地坛医院皮肤性病科/医学美容科主任医师，北京大学医学部副教授、硕士研究生导师，首都医科大学副教授、硕士研究生导师，北京市卫生系统高层次人才（北京市医学学科骨干，皮肤病与性病学）。"
   },
   {
     "doctorid": 1,
     "doctorIcon": "http://wx.allifetech.com/WeApp/zanzan/images/avatar3.png",
     "doctorName": "周伯通",
-    "doctor_keshi": "内科",
+    "doctor_keshi": "妇产科",
     "doctor_level": "副主任医师",
-    "doctor_hospital": "积水潭医院",
+    "doctor_hospital": "首都医科大学附属北京妇产医院",
     "tag_hospital": "二甲医院",
     "zx_num": "1",
     "fw_num": "5.0",
     "price_twzx": "￥1",
     "price_dhzx": "￥5",
-    "scjb_cont": "无无无无无无无",
+    "scjb_cont": "不孕不育的诊治；卵巢功能减退；妇科内分泌疾病，如多囊卵巢综合征、子宫内膜异位症、功能失调性子宫出血(排卵期出血); 闭经; 流产、复发性流产、胚胎停育等",
     "bjjs_cont": "江湖术士"
   }
 ]

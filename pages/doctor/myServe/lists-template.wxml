@@ -19,7 +19,7 @@
               <view class='item-container-r'>
                 <text class='item-container-time'>15:00</text>
               </view>
-              <image class='item-container-avatar' src='../../../images/avatar2.png'></image>
+              <image class='item-container-avatar' src='../../../images/avatar4.png'></image>
               <view class='item-container-c'>
                 <text class="item-container-name">欧阳锋</text>
                 <text class='item-container-massage'>[等待医生来电]</text>
@@ -27,6 +27,6 @@
             </view>
           </navigator>
 
-          <include src="/pages/common/loadmore.wxml"/>
+          
         </scroll-view>
 </template>

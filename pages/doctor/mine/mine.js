@@ -13,7 +13,7 @@ Page({
       "borderStyle": "#ccc",
       "list": [
         {
-          "pagePath": "/pages/doctor/doctor",
+          "pagePath": "/pages/doctor/doctor?doctorid=0",
           "text": "我的主页",
           "iconPath": "../../../images/home.png",
           "selectedIconPath": "../../../images/home-fill.png",
@@ -21,7 +21,7 @@ Page({
           active: false
         },
         {
-          "pagePath": "/pages/doctor/myServe/myServe",
+          "pagePath": "/pages/doctor/myServe/myServe?doctorid=0",
           "text": "我的咨询",
           "iconPath": "../../../images/message.png",
           "selectedIconPath": "../../../images/message-fill.png",
@@ -29,10 +29,10 @@ Page({
           active: false
         },
         {
-          "pagePath": "/pages/doctor/mine/mine",
-          "text": "我的收益",
-          "iconPath": "../../../images/wallet.png",
-          "selectedIconPath": "../../../images/wallet-fill.png",
+          "pagePath": "/pages/doctor/mine/mine?doctorid=0",
+          "text": "我的",
+          "iconPath": "../../../images/my.png",
+          "selectedIconPath": "../../../images/my-fill.png",
           "selectedColor": "#E55400",
           active: true
         }
@@ -45,8 +45,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    app.editTabBar();//添加tabBar数据  
-    console.log('onLoad')
+    
   },
 
   /**
@@ -54,7 +53,7 @@ Page({
    */
   onReady: function () {
     wx.setNavigationBarTitle({
-      title: '我的收益'
+      title: '我的'
     })
   },
 
