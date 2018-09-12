@@ -1,0 +1,135 @@
+/* pages/doctor/doctor.wxss */
+
+
+
+.tit_div{
+  font-size: 14px;
+  padding: 30rpx 40rpx;
+  border-bottom: 1px solid #FAF9F5;
+}
+.cont_div{
+  padding: 30rpx 40rpx;
+  text-align: justify;
+}
+.cont_div_c{
+  display: block;
+  color: #777;
+}
+.cont_div_t{
+  display: block;
+  color: #222;
+  margin-bottom: 6px;
+}
+
+.doctor{
+  width: 100%;
+  padding-bottom: 96rpx;
+}
+.doctor_profile{
+	background: linear-gradient(to right, #E55400, #FAA129);
+	color: #fff;
+	overflow: hidden;
+  padding: 40rpx;
+}
+
+.edit{
+  float: right;
+  font-size: 12px;
+  background: #fff;
+  color: #E55400;
+  padding: 0 8px;
+  line-height: 2;
+}
+.edit::after{
+border: none;
+}
+
+.share_img{
+  height: 14px;
+  width: 14px;
+  vertical-align: middle;
+  margin-right:5px;
+}
+
+.avatar{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 100%;
+  float: left;
+}
+.profile{
+  padding-left: 150rpx;
+}
+
+.doctor_name{
+  font-size: 16px;
+  margin-bottom: 12rpx;
+}
+
+.profile_tag{
+  margin-top: 12rpx;
+}
+.profile_tag_t{
+  background-color: rgba(2,2,2,0.2);
+  display: inline-block;
+  padding: 0 6px;
+  border-radius: 100px;
+  font-size: 10px;
+}
+
+.record{
+  background-color: #fff;
+  padding: 20rpx;
+  text-align: center;
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+}
+.record_c{
+  float: left;
+  width: 50%;
+  color: #777;
+}
+.record_c_t{
+  font-size: 14px;
+  display: block;
+  color: #222222;
+}
+
+.twzx{
+  padding: 30rpx 40rpx 30rpx 40rpx;
+  border-bottom: 1px solid #FAF9F5;
+}
+.dhzx{
+  padding: 30rpx 40rpx 30rpx 40rpx;
+}
+
+.zx_left{
+  float: left;
+  display: block;
+  width: 48rpx;
+  height: 48rpx;
+  padding-top: 18rpx;
+}
+.zx_center{
+  padding-left: 68rpx;
+  padding-right: 120rpx;
+  color: #777;
+}
+.zx_center_text{
+  display: block;
+  font-size: 14px;
+  color: #222;
+}
+.zx_right{
+  float: right;
+  font-size: 14px;
+  padding-top: 18rpx;
+}
+.zx_right_img{
+  width: 48rpx;
+  height: 48rpx;
+  vertical-align: middle;
+  margin-top: -3px;
+  opacity: 0.6;
+}

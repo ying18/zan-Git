@@ -1,0 +1,28 @@
+
+
+.doctor_list_item{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #fff;
+  padding: 30rpx;
+  margin-bottom: 1px;
+}
+.doctor_icon{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 100%;
+  margin-right: 30rpx;
+}
+.doctor_name{
+  font-size: 14px;
+}
+.doctor_keshi{
+  margin: 0 20rpx 0 30rpx;
+  opacity: 0.7;
+  vertical-align: middle;
+}
+.doctor_level{
+  opacity: 0.7;
+  vertical-align: middle;
+}

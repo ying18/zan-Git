@@ -1,0 +1,38 @@
+/* pages/patient/includes/evaluate.wxss */
+.tit_div{
+  font-size: 14px;
+  padding: 30rpx 40rpx;
+  border-bottom: 1px solid #FAF9F5;
+}
+.cont_div{
+  padding: 30rpx 40rpx;
+  text-align: justify;
+}
+
+
+.doctor_file{
+  text-align: center;
+  padding: 40rpx;
+}
+.avatar{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 100%;
+  display: inline-block;
+}
+
+.doctor_name{
+  font-size: 16px;
+  margin-bottom: 12rpx;
+  margin-top: 20rpx;
+}
+
+.profile_tag_t{
+  background-color: rgba(2,2,2,0.2);
+  display: inline-block;
+  padding: 0 6px;
+  border-radius: 100px;
+  font-size: 10px;
+  margin-left: 20rpx;
+  color: #fff;
+}

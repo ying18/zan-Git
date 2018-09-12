@@ -1,0 +1,32 @@
+<view class='container'>
+
+  <view class='question mb10'>
+      <image class='avatar' src='../../../../images/avatar2.png'></image>
+      <view class="name"><text>欧阳锋</text></view>
+  </view>
+
+  <view class='fff_bg mb10' style='padding-bottom:180rpx;'>
+    <view class='tit_div'>TA的问题</view>
+    <view class='cont_div'>
+        <text>请问烫伤后新皮肤多久恢复?已经有20天了，现在新皮肤红红的，一走路就红肿更严重，怎样才能恢复快一点（女，27岁）请问烫伤后新皮肤多久恢复?已经有20天了，现在新皮肤红红的，一走路就红肿更严重，怎样才能恢复快一点（女，27岁）请问烫伤后新皮肤多久恢复?已经有20天了，现在新皮肤红红的，一走路就红肿更严重，怎样才能恢复快一点（女，27岁）</text>
+        <image class='question_img' src="../../../../images/test1.jpg"></image>
+    </view>
+  </view>
+
+<view class='wt_fixed_bottom'>
+  <!-- 没有服务之前 -->
+  <view wx:if="{{state == 'notStarted'}}">
+    <button class='btn'>给TA打电话</button>
+  </view>
+  <!-- 正在服务 -->
+  <view wx:elif="{{state == 'calling'}}">
+    <button class='btn'>结束咨询</button><button class='btn btn_outline'>重拨电话</button>
+  </view>
+  <!-- 服务结束 -->
+  <view wx:else="{{state == 'closed'}}">
+    <text>已关闭</text>
+  </view>
+</view>
+
+</view>
+

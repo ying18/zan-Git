@@ -1,0 +1,17 @@
+<view class='container'>
+
+  <view class='doctor_file mb10'>
+      <image class='avatar' src='../../../images/avatar.png'></image>
+      <view class="doctor_name"><text>{{doctor_name}}</text></view>
+      <view><text class='mr10'>{{doctor_keshi}}</text><text>{{doctor_level}}</text></view>
+      <view><text>{{doctor_hospital}}</text><text class='profile_tag_t'>{{tag_hospital}}</text></view>
+  </view>
+
+  <view class='fff_bg mb10'>
+    <view class='tit_div'>评价一下</view>
+    <view class='cont_div'>
+        
+    </view>
+  </view>
+
+</view>

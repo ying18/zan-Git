@@ -1,0 +1,2 @@
+/* pages/patient/dhzx/closure/closure.wxss */
+@import '../wait/wait.wxss';

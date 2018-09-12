@@ -1,0 +1,47 @@
+/* pages/doctor/myServe/phone/phone.wxss */
+
+.tit_div{
+  font-size: 14px;
+  padding: 30rpx 40rpx;
+  border-bottom: 1px solid #FAF9F5;
+}
+.cont_div{
+  padding: 30rpx 40rpx;
+  text-align: justify;
+}
+
+
+.question{
+  text-align: center;
+  padding: 40rpx;
+}
+.avatar{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 100%;
+  display: inline-block;
+}
+
+.name{
+  font-size: 16px;
+  margin-bottom: 12rpx;
+  margin-top: 20rpx;
+}
+
+.question_img{
+  margin-top: 20rpx;
+}
+
+.wt_fixed_bottom{
+  background-color: #fff;
+	padding: 40rpx 0;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	box-shadow: 0 -2px 2px 0 rgba(2, 2, 2, 0.1);
+	text-align: center;
+}
+.btn{
+  margin: 0 40rpx;
+}

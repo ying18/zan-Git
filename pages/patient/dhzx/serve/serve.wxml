@@ -1,0 +1,116 @@
+
+<view class='container'>
+  <!-- 服务状态 -->
+    <view class='order_process mb10'>
+
+      <view class='process_wrap'>
+        <text class='process_name_end'>预约咨询</text>
+        <view class='process'>
+          <view class='process_line_end'></view>
+          <image class='process_icon' src="../../../../images/process_2.png"></image>
+          <view class='process_line_end'></view>
+        </view>
+      </view>
+      <view class='process_wrap'>
+        <text class='process_name_end'>等待电话</text>
+        <view class='process'>
+          <view class='process_line_end'></view>
+          <image class='process_icon' src="../../../../images/process_2.png"></image>
+          <view class='process_line_end'></view>
+        </view>
+      </view>
+      <view class='process_wrap'>
+        <text class='process_name_end'>服务中</text>
+        <view class='process'>
+          <view class='process_line_end'></view>
+          <image class='process_icon' src="../../../../images/process_3.png"></image>
+          <view class='process_line'></view>
+        </view>
+      </view>
+      <view class='process_wrap'>
+        <text class='process_name'>咨询结束</text>
+        <view class='process'>
+          <view class='process_line'></view>
+          <image class='process_icon' src="../../../../images/process_1.png"></image>
+          <view class='process_line'></view>
+        </view>
+      </view>
+
+    </view>
+
+  <!-- 服务状态2 -->
+      <view class='fff_bg mb10'>
+        <view class='tit_div'>服务状态</view>
+        <view class='cont_div'>
+            <view class='vertical_process'>
+              <view class='v_process_wrap'>
+                <image class='v_process_icon' src="../../../../images/process2_1.png"></image>
+                <text class='v_process_cont'>通话结束</text>
+              </view>
+              <view class='v_process_wrap' style='margin:60rpx 0;'>
+                <image class='v_process_icon' src="../../../../images/process2_3.png"></image>
+                <text class='v_process_cont_end'>医生来电</text>
+                <text class='v_process_time'>2018-08-03 17:40:10</text>
+              </view>
+              <view class='v_process_wrap'>
+                <image class='v_process_icon' src="../../../../images/process2_2.png"></image>
+                <text class='v_process_cont_end'>发起电话咨询</text>
+                <text class='v_process_time'>2018-08-03 17:20:20</text>
+              </view>
+            </view>
+        </view>
+      </view>
+
+      <!-- <view class='fff_bg mb10'>
+        <view class='tit_div'>服务状态</view>
+        <view class='cont_div'>
+            <view class='vertical_process'>
+              <view class='v_process_wrap'>
+                <image class='v_process_icon' src="../../../../images/process2_3.png"></image>
+                <text class='v_process_cont_end'>通话结束</text>
+                <text class='v_process_time'>2018-08-03 17:40:10</text>
+                <text class='v_process_tag'>若通话异常，请提醒医生重新来电</text>
+              </view>
+              <view class='v_process_wrap' style='margin:60rpx 0;'>
+                <image class='v_process_icon' src="../../../../images/process2_2.png"></image>
+                <text class='v_process_cont_end'>医生来电</text>
+                <text class='v_process_time'>2018-08-03 17:40:10</text>
+              </view>
+              <view class='v_process_wrap'>
+                <image class='v_process_icon' src="../../../../images/process2_2.png"></image>
+                <text class='v_process_cont_end'>发起电话咨询</text>
+                <text class='v_process_time'>2018-08-03 17:20:20</text>
+              </view>
+            </view>
+        </view>
+      </view> -->
+
+  <view class='rule_cont' style='margin-bottom:184rpx;'>
+    <text class='rule_text'>咨询规则：</text>
+    <text class='rule_text'>1.本次服务最长通话时长为15分钟。</text>
+    <text class='rule_text'>2.若医生未及时回电，可能正在门诊或手术，请您耐心等待。</text>
+    <text class='rule_text'>3.咨询服务内容仅作为医生个人咨询建议，不可作为诊断依据，如病情紧急请尽快到医院就诊。</text>
+  </view>
+
+<!-- 底部我的问题&提醒医生 -->
+<view class='wt_fixed_bottom'>
+  <button class='btn btn_outline' bindtap="modal_show">查看我的提问</button>
+  <button class='btn' bindtap='goToClosurePage'>提醒医生来电</button>
+</view>
+
+
+<!-- 弹出层内容，其中的“我知道”中绑定让弹出层消失的函数：bindtap="hide" -->
+<view class="modal-box" hidden="{{flag}}" bindtap="modal_hide">
+    <view class="modal-body">
+      <view class="modal-content">
+        <view class='modal-cont'>
+        <view class='modal-words'>[500字]请问烫伤后新皮肤多久恢复?已经有20天了，现在新皮肤红红的，一走路就红肿更严重，怎样才能恢复快一点（女，27岁）请问烫伤后新皮肤多久恢复?已经有20天了，现在新皮肤红红的，一走路就红肿更严重，怎样才能恢复快一点（女，27岁）请问烫伤后新皮肤多久恢复?已经有20天了，现在新皮肤红红的，一走路就红肿更严重，怎样才能恢复快一点（女，27岁）</view>
+        <image class='modal-img' src="../../../../images/test1.jpg"></image>
+        </view>
+     </view>
+     <view class='modal-btn'>
+        <button class="knowBtn" bindtap="modal_hide">我知道了</button>
+     </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/test/test",
+    "pages/doctor/myServe/myServe",
+    "pages/doctor/mine/mine",
+    "pages/doctor/doctor",
+    "pages/patient/patient",
+    "pages/patient/doctor/doctor",
+    "pages/patient/evaluate/evaluate",
+    "pages/patient/dhzx/closure/closure",
+    "pages/patient/dhzx/serve/serve",
+    "pages/patient/dhzx/wait/wait",
+    "pages/patient/dhzx/dhzx",
+    "pages/patient/twzx/twzx",
+    "pages/logs/logs",
+    "pages/doctor/myServe/phone/phone",
+    "pages/doctor/myServe/chat/chat"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#222",
+    "navigationBarTitleText": "赞赞医生",
+    "navigationBarTextStyle": "#fff"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000
+  }
+}

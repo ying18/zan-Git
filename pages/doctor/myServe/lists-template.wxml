@@ -1,0 +1,32 @@
+<template name="serveList">
+        <scroll-view scroll-y="true" style="height: 100%; background-color: #FFF;">
+          <navigator url='/pages/doctor/myServe/chat/chat'>
+            <view class="item-container">
+              <view class='item-container-new'></view>
+              <view class='item-container-r'>
+                <text class='item-container-time'>15:00</text>
+              </view>
+              <image class='item-container-avatar' src='../../../images/avatar2.png'></image>
+              <view class='item-container-c'>
+                <text class="item-container-name">杨过</text>
+                <text class='item-container-massage'>好的，谢谢医生！</text>
+              </view>
+            </view>
+          </navigator>
+          <navigator url='/pages/doctor/myServe/phone/phone'>
+            <view class="item-container">
+              <view class='item-container-new'></view>
+              <view class='item-container-r'>
+                <text class='item-container-time'>15:00</text>
+              </view>
+              <image class='item-container-avatar' src='../../../images/avatar2.png'></image>
+              <view class='item-container-c'>
+                <text class="item-container-name">欧阳锋</text>
+                <text class='item-container-massage'>[等待医生来电]</text>
+              </view>
+            </view>
+          </navigator>
+
+          <include src="/pages/common/loadmore.wxml"/>
+        </scroll-view>
+</template>

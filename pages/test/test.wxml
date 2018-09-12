@@ -1,0 +1,7 @@
+
+<block wx:for="{{gameData}}" wx:for-item="item" wx:key="key">
+  <view>
+    <image src='{{item.gameIcon}}'></image>
+    <text>{{item.gameName}}</text>
+  </view>
+</block>

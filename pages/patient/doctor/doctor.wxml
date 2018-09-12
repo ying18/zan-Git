@@ -1,0 +1,59 @@
+
+
+<view class='container'>
+
+  <view class='doctor'>
+      <view class="doctor_profile">
+        <image class='avatar' src='{{doctorIcon}}'></image>
+        <view class='profile'>
+          <button class='share' id="shareBtn" open-type="share" data-doctorid="{{doctorid}}"><image class='share_img' src='http://wx.allifetech.com/WeApp/zanzan/images/icon-share.svg'></image>推荐</button>
+          <view class="doctor_name"><text>{{doctorName}}</text></view>
+          <view><text class='mr10'>{{doctor_keshi}}</text><text>{{doctor_level}}</text></view>
+          <view><text>{{doctor_hospital}}</text></view>
+          <view class='profile_tag'><text class='profile_tag_t'>{{tag_hospital}}</text></view>
+        </view>
+      </view>
+
+      <view class='record mb10'>
+        <view class='record_c'><text class='record_c_t'>{{zx_num}}</text>咨询次数</view>
+        <view class='record_c'><text class='record_c_t'>{{fw_num}}</text>服务评分</view>
+      </view>
+
+      <view class='fff_bg mb10'>
+        <view class='twzx' bindtap='gotoTw' data-doctorid="{{doctorid}}">
+          <view class='zx_right'>{{price_twzx}}<image class='zx_right_img' src='http://wx.allifetech.com/WeApp/zanzan/images/icon-chevron-right.svg'></image></view>
+          <image class='zx_left' src='http://wx.allifetech.com/WeApp/zanzan/images/icon-message-square.svg'></image>
+          <view class='zx_center'>
+            <text class='zx_center_text'>图文咨询</text>使用图片、语音、文字咨询医生
+          </view>
+        </view>
+        <view class='dhzx' bindtap='gotoDh' data-doctorid="{{doctorid}}">
+          <view class='zx_right'>{{price_dhzx}}<image class='zx_right_img' src='http://wx.allifetech.com/WeApp/zanzan/images/icon-chevron-right.svg'></image></view>
+          <image class='zx_left' src='http://wx.allifetech.com/WeApp/zanzan/images/icon-phone-call.svg'></image>
+          <view class='zx_center'>
+            <text class='zx_center_text'>电话咨询</text>通过电话直接咨询医生
+          </view>
+        </view>
+
+      </view>
+
+      <view class='fff_bg mb10'>
+        <view class='tit_div'>医生简介</view>
+        <view class='cont_div'>
+          <text class='cont_div_t'>擅长疾病</text>
+          <text class='cont_div_c'>{{scjb_cont}}</text>
+          <text class='cont_div_t mt15'>背景介绍</text>
+          <text class='cont_div_c'>{{bjjs_cont}}</text>
+        </view>
+      </view>
+
+  </view>
+
+<!-- 医生主页，底部咨询入口 -->
+  <view class='bottom_tab_bar_container'>
+    <view class='twzx_link' bindtap='gotoTw' data-doctorid="{{doctorid}}">图文咨询{{price_twzx}}</view>
+    <view class='dhzx_link' bindtap='gotoDh' data-doctorid="{{doctorid}}">电话咨询{{price_dhzx}}</view>
+  </view>
+
+</view>
+

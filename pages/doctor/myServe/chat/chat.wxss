@@ -1,0 +1,37 @@
+
+@import 'iconfont.wxss';
+
+
+.talk{background-color: #FAF9F5; height: calc(100vh - 120rpx);margin: auto;padding: 20rpx 30rpx 20rpx 30rpx;box-sizing: border-box;}
+
+.people{margin:20rpx 0 }
+
+.headimg_other{ width: 80rpx; height: 80rpx;border-radius: 100%; float: left; }
+.speak_other{ background-color:rgba(2,2,2,0.1); padding: 20rpx 10rpx; border-radius:10rpx; margin-left: 20rpx; max-width: 400rpx; display: inline-block;  }
+
+.headimg_me{ width: 80rpx; height: 80rpx;border-radius: 100%; float: right; }
+.speak_me{ background-color:#E55400; color: white;  padding: 20rpx 10rpx; border-radius:10rpx;  float: right; margin-right: 20rpx;  max-width: 400rpx; }
+
+
+.send{width: 100%;position: fixed;bottom: 0;left: 0;background: #fff;padding: 10px;border-top: solid 1px #ddd;box-sizing: border-box;}
+
+.icon{float: left; height: 76rpx; text-align: center; display: block; width: 80rpx;margin-top: -4rpx;}
+
+.cotent{padding: 0 144rpx 0 100rpx}
+.ipt{height: 76rpx; line-height: 76rpx;padding: 0 10rpx;border-radius:10rpx; background-color:white;  border: solid 1px #ddd;box-sizing: border-box;}
+.talkbtn{height: 76rpx; line-height: 76rpx;padding: 0 10rpx;border-radius:10rpx; border: solid 1px #ddd;}
+.talkbtn::after{
+  border: none;
+}
+
+.fasong{   width:120rpx; float: right; }
+.fasongbtn{width: 120rpx;background-color: #E55400;color: #fff;border-radius: 5px;border: 0;height: 76rpx;line-height: 76rpx;font-size: 12px;padding: 0;}
+.fasongbtn::after{
+  border: none;
+}
+
+.model{line-height: 60rpx; width: 200rpx; margin: 0; margin-left: 120rpx; margin-top: 20rpx}
+
+.select{width: 60rpx; height: 60rpx; margin-top: -20rpx; position: relative; top:18rpx}
+
+.picker{background-color:#f1f0f6; display: inline-block; height: 48rpx; border-radius: 4rpx  }

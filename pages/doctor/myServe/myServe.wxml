@@ -1,0 +1,28 @@
+<!--pages/doctor/myServe/myServe.wxml-->
+<import src="/pages/tabBar-template/tabBar.wxml" />  
+<template is="tabBar" data="{{tabBar: tabBar}}" />  
+
+<import src="lists-template.wxml"/>
+
+<view class='container' current="{{curSelClassifyIndex}}">
+
+  <!-- <loading hidden="{{loadingHidden}}">加载中...</loading> -->
+  <view class='serve_wrap'>
+
+    <view class='title-tabs-bar-container'>
+      <navigator class="title-tabs-bar-text {{curSelClassifyIndex == 0 ? 'title-tabs-bar-text-selected' : ''}}" bindtap="onTitleBarsClick0" >正在咨询</navigator>
+      <navigator class="title-tabs-bar-text {{curSelClassifyIndex == 1 ? 'title-tabs-bar-text-selected' : ''}}" bindtap="onTitleBarsClick1" >已结束</navigator>
+    </view>
+
+    <swiper style="flex: 1;" bindchange="onBindchange" current="{{curSelClassifyIndex}}">
+      <swiper-item>
+<!-- 列表 -->
+        <template is="serveList"></template>
+<!-- 列表 -->
+      </swiper-item>
+    </swiper>
+
+
+  </view>
+
+</view>

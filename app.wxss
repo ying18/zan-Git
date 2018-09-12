@@ -1,0 +1,178 @@
+/**app.wxss**/
+page{
+  background-color: #FAF9F5;
+  line-height: 1.5;
+  color: #222;
+  font-size: 12px;
+  height: 100%;
+}
+.container {
+  height: 100%;
+  align-items: center;
+  box-sizing: border-box;
+} 
+
+
+/* 列表加载 */
+.load-more-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%; 
+  height: 100rpx;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.load-more-tips {
+  color: #999999;
+  margin-left: 10rpx;
+  vertical-align: middle;
+}
+
+
+/* 公用 */
+.mb10{margin-bottom: 20rpx;}
+.mr10{margin-right: 20rpx;}
+.mt15{margin-top: 30rpx;}
+.fff_bg{background-color: #fff;}
+
+.btn{
+	display: inline-block;
+	padding: 4rpx 40rpx;
+	min-width: 144rpx;
+	background-color: #E55400;
+	border: 1px solid #E55400;
+	border-radius: 100px;
+	color: #fff;
+  font-size: 12px;
+}
+.btn_outline{
+	background-color: #fff;
+	color: #E55400;
+}
+
+button:hover{
+  opacity: 0.7;
+}
+
+
+
+/* 父元素-横向排列（主轴） */
+
+.flex-h {
+  display: box; /* OLD - Android 4.4- */
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Chrome */
+  display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ *//* 09版 */
+  -webkit-box-orient: horizontal;
+  /* 12版 */
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  -ms-flex-direction: row;
+  -o-flex-direction: row;
+  flex-direction: row;
+}
+
+/* 父元素-水平两端对齐（主轴是横向才生效） */
+
+.flex-hsb {
+  /* 09版 */
+  -webkit-box-pack: space-between;
+  /* 12版 */
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  -o-justify-content: space-between;
+  justify-content: space-between;
+  /* 其它取值如下：
+    align-items     主轴原点方向对齐
+    flex-end        主轴延伸方向对齐
+    space-between   等间距排列，首尾不留白
+    space-around    等间距排列，首尾留白
+   */
+}
+
+/* 父元素-水平居中（主轴是横向才生效） */
+
+.flex-hc {
+  /* 09版 */
+  -webkit-box-pack: center;
+  /* 12版 */
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  justify-content: center;
+  /* 其它取值如下：
+		align-items	 主轴原点方向对齐
+		flex-end		主轴延伸方向对齐
+		space-between   等间距排列，首尾不留白
+		space-around	等间距排列，首尾留白
+	 */
+}
+
+/* 父元素-纵向排列（主轴） */
+
+.flex-v {
+  display: box; /* OLD - Android 4.4- */
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Chrome */
+  display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ *//* 09版 */
+  -webkit-box-orient: vertical;
+  /* 12版 */
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+}
+
+/* 父元素-竖直居中（主轴是横向才生效） */
+
+.flex-vc {
+  /* 09版 */
+  -webkit-box-align: center;
+  /* 12版 */
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+}
+
+
+/*tabBar*/
+
+.tab-bar {
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
+  height: 100rpx;
+  /*line-height: 100rpx;*/
+  font-size: 22rpx;
+  color: #999999;
+  background: #fff;
+  text-align: center;
+}
+
+.tab-bar-menu-item {
+  display: block;
+  flex: 1;
+  /*width: 33.3%;*/
+  height: 100%;
+}
+
+.tab-bar-menu-item-img {
+  margin: 10rpx auto 0 auto;
+  display: block;
+  width: 48rpx;
+  height: 48rpx;
+}
+
+.tab-bar-menu-item.active {
+  color: #E55400;
+}

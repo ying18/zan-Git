@@ -1,0 +1,55 @@
+<!--pages/doctor/doctor.wxml-->
+<import src="/pages/tabBar-template/tabBar.wxml" />  
+<template is="tabBar" data="{{tabBar: tabBar}}" />  
+
+<view class='container' current="{{curSelClassifyIndex}}">
+
+  <!-- <loading hidden="{{loadingHidden}}">加载中...</loading> -->
+  <view class='doctor'>
+      <view class="doctor_profile">
+        <image class='avatar' src='{{doctorIcon}}'></image>
+        <view class='profile'>
+          <button class='edit'>编辑资料</button>
+          <view class="doctor_name"><text>{{doctorName}}</text></view>
+          <view><text class='mr10'>{{doctor_keshi}}</text><text>{{doctor_level}}</text></view>
+          <view><text>{{doctor_hospital}}</text></view>
+          <view class='profile_tag'><text class='profile_tag_t'>{{tag_hospital}}</text></view>
+        </view>
+      </view>
+
+      <view class='record mb10'>
+        <view class='record_c'><text class='record_c_t'>{{zx_num}}</text>咨询次数</view>
+        <view class='record_c'><text class='record_c_t'>{{fw_num}}</text>服务评分</view>
+      </view>
+
+      <view class='fff_bg mb10'>
+        <view class='twzx'>
+          <view class='zx_right'>{{price_twzx}}</view>
+          <image class='zx_left' src='../../images/icon-message-square.svg'></image>
+          <view class='zx_center'>
+            <text class='zx_center_text'>图文咨询</text>使用图片、语音、文字咨询医生
+          </view>
+        </view>
+        <view class='dhzx'>
+          <view class='zx_right'>{{price_dhzx}}</view>
+          <image class='zx_left' src='../../images/icon-phone-call.svg'></image>
+          <view class='zx_center'>
+            <text class='zx_center_text'>电话咨询</text>通过电话直接咨询医生
+          </view>
+        </view>
+
+      </view>
+
+      <view class='fff_bg mb10'>
+        <view class='tit_div'>医生简介</view>
+        <view class='cont_div'>
+          <text class='cont_div_t'>擅长疾病</text>
+          <text class='cont_div_c'>{{scjb_cont}}</text>
+          <text class='cont_div_t mt15'>背景介绍</text>
+          <text class='cont_div_c'>{{bjjs_cont}}</text>
+        </view>
+      </view>
+
+  </view>
+
+</view>

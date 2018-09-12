@@ -1,0 +1,67 @@
+
+<view class='container'>
+  <!-- 服务状态 -->
+    <view class='order_process mb10'>
+
+      <view class='process_wrap'>
+        <text class='process_name_end'>预约咨询</text>
+        <view class='process'>
+          <view class='process_line_end'></view>
+          <image class='process_icon' src="../../../images/process_3.png"></image>
+          <view class='process_line'></view>
+        </view>
+      </view>
+      <view class='process_wrap'>
+        <text class='process_name'>等待电话</text>
+        <view class='process'>
+          <view class='process_line'></view>
+          <image class='process_icon' src="../../../images/process_1.png"></image>
+          <view class='process_line'></view>
+        </view>
+      </view>
+      <view class='process_wrap'>
+        <text class='process_name'>服务中</text>
+        <view class='process'>
+          <view class='process_line'></view>
+          <image class='process_icon' src="../../../images/process_1.png"></image>
+          <view class='process_line'></view>
+        </view>
+      </view>
+      <view class='process_wrap'>
+        <text class='process_name'>咨询结束</text>
+        <view class='process'>
+          <view class='process_line'></view>
+          <image class='process_icon' src="../../../images/process_1.png"></image>
+          <view class='process_line'></view>
+        </view>
+      </view>
+
+    </view>
+
+  <form>
+    <view class='appointment fff_bg'>
+    <!-- 文本框 -->
+        <view class='textarea_wrp'>
+          <textarea class="textarea_wrp_textarea" placeholder='请详细描述症状，如有检查报告请在下方上传，便于医生更准确分析判断（500字以内）' placeholder-class='phcolor'></textarea>
+        </view>
+    <!-- 上传图片 -->
+        <view class='upload'>
+          <button bindtap="uploadImg">上传图片</button>
+        </view>
+    <!-- 录入手机号 -->
+        <view class='input_wrp'>
+          <input class='input_wrp_input' placeholder='请输入您的手机号，以便医生能联系您' placeholder-class='phcolor'></input>
+        </view>
+
+    </view>
+
+    <button class='appointment_btn' bindtap='goToWaitPage'><text>立即咨询（{{price_dhzx}} ⁄ 次服务）</text></button>
+  </form>
+
+  <view class='rule_cont'>
+    <text class='rule_text'>咨询规则：</text>
+    <text class='rule_text'>1.本次服务最长通话时长为15分钟。</text>
+    <text class='rule_text'>2.若医生未及时回电，可能正在门诊或手术，请您耐心等待。</text>
+    <text class='rule_text'>3.咨询服务内容仅作为医生个人咨询建议，不可作为诊断依据，如病情紧急请尽快到医院就诊。</text>
+  </view>
+</view>
