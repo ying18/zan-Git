@@ -5,7 +5,7 @@ var tem = '';
 var speakarr = [
   { i: 0, name: "me", say: "你好", stime: '2016' },
   { i: 1, name: "other", say: "您好", stime: '2017' },
-  { i: 2, name: "me", say: "你有什么问题？", stime: '2018' },
+  { i: 2, name: "me", say: "你有什么要咨询的？", stime: '2018' },
   { i: 3, name: "other", say: "稍等", stime: '2019' },
 ];
 

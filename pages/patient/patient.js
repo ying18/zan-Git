@@ -66,7 +66,18 @@ Page({
       url: '../patient/doctor/doctor?doctorid=' + event.currentTarget.dataset.doctorid
     })
   },
-
+  gotoTw: function (event) {
+    // console.log(event);
+    wx.navigateTo({
+      url: '../patient/twzx/twzx?doctorid=' + event.currentTarget.dataset.doctorid,
+    })
+  },
+  gotoDh: function (event) {
+    // console.log(event);
+    wx.navigateTo({
+      url: '../patient/dhzx/dhzx?doctorid=' + event.currentTarget.dataset.doctorid,
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

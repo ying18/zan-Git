@@ -11,7 +11,8 @@
         <view class='profile'>
           <button class='edit'>编辑资料</button>
           <view class="doctor_name"><text>{{doctorName}}</text></view>
-          <view><text class='mr10'>{{doctor_keshi}}</text><text>{{doctor_level}}</text></view>
+          <view><text>{{doctor_keshi}}</text></view>
+          <view><text>{{doctor_level}}</text></view>
           <view><text>{{doctor_hospital}}</text></view>
           <view class='profile_tag'><text class='profile_tag_t'>{{tag_hospital}}</text></view>
         </view>
@@ -23,7 +24,7 @@
       </view>
 
       <view class='fff_bg mb10'>
-        <view class='tit_div'><button class='edit_g'>设置</button>已开通项目</view>
+        <view class='tit_div'>服务项目</view>
         <view class='twzx'>
           <view class='zx_right'>{{price_twzx}}</view>
           <image class='zx_left' src='../../images/icon-message-square.svg'></image>
@@ -42,7 +43,7 @@
       </view>
 
       <view class='fff_bg mb10'>
-        <view class='tit_div'><button class='edit_g'>编辑</button>我的简介</view>
+        <view class='tit_div'>我的简介</view>
         <view class='cont_div'>
           <text class='cont_div_t'>擅长疾病</text>
           <text class='cont_div_c'>{{scjb_cont}}</text>

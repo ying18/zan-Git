@@ -1,9 +1,9 @@
 var doctorData = [
   {
     "doctorid":0,
-    "doctorIcon":"http://wx.allifetech.com/WeApp/zanzan/images/avatar.png",
+    "doctorIcon":"http://wx.allifetech.com/WeApp/zanzan/images/wy_avatar.png",
     "doctorName":"吴焱",
-    "doctor_keshi": "皮肤性病科",
+    "doctor_keshi": "皮肤性病科/医学美容科",
     "doctor_level": "主任医师 副教授",
     "doctor_hospital": "首都医科大学附属北京地坛医院",
     "tag_hospital": "三甲医院",

@@ -4,16 +4,41 @@
 
 <view class='container'>
 
-  <view class='earnings_wrap'>
+  <view class='earnings_wrap mb10'>
     <view>
-      <text class='earnings_more'>查看明细</text>
+      <navigator class='earnings_more' url='earnings/earnings'>查看明细</navigator>
       <text class='earnings_tit'>我的收益（元）</text>
     </view>
     <text class='earnings_cont'>9214.00</text>
   </view>
 
-  <view style='margin: 30rpx 0;padding:30rpx;background-color: #fff;font-size: 14px;'>我的资料</view>
-  <view style='margin: 30rpx 0;padding:30rpx;background-color: #fff;font-size: 14px;'>意见反馈</view>
+  <view class='features_wrap fff_bg mb10'>
+    <view class='tit_div'>服务项目设置</view>
+    <view>
+          <view class='feature_item'>
+            <image class='feature_img' src='http://wx.allifetech.com/WeApp/zanzan/images/icon-message-square.svg'></image>
+            <view style='text-align:left'>
+              <text class='feature_cont'>图文咨询</text>
+              <text class='feature_state'>修改</text>
+            </view>
+          </view>
+          <view class='feature_item'>
+            <image class='feature_img' src='http://wx.allifetech.com/WeApp/zanzan/images/icon-phone-call.svg'></image>
+            <view style='text-align:left'>
+              <text class='feature_cont'>电话咨询</text>
+              <text class='feature_state'>修改</text>
+            </view>
+          </view>
+    </view>
+  </view>
+
+  <view class='features_wrap fff_bg mb10'>
+    <view class='tit_div'>其他</view>
+    <view>
+          <view class='feature_item'><image class='feature_img' src='http://wx.allifetech.com/WeApp/zanzan/images/icon-edit.svg'></image><text class='feature_cont'>编辑资料</text></view>
+          <view class='feature_item'><image class='feature_img' src='http://wx.allifetech.com/WeApp/zanzan/images/icon-info.svg'></image><text class='feature_cont'>意见反馈</text></view>
+    </view>
+  </view>
 
 
 

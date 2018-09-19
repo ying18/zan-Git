@@ -9,7 +9,7 @@
               <image class='item-container-avatar' src='../../../images/avatar2.png'></image>
               <view class='item-container-c'>
                 <text class="item-container-name">杨过</text>
-                <text class='item-container-massage'>好的，谢谢医生！</text>
+                <text class='item-container-massage'>你有什么要咨询的？</text>
               </view>
             </view>
           </navigator>

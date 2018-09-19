@@ -1,2 +1,39 @@
 /**index.wxss**/
 
+.login_wrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.app_icon{
+  width: 240rpx;
+  height: 240rpx;
+}
+.btn_login{
+  margin: 0 0 80rpx;
+  width: 100%;
+  padding: 0;
+  border-radius: 100rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  border: 1px solid #e55400;
+  color: #fff;
+  background-color: #e55400;
+  font-size: 36rpx;
+}
+.btn_login::after,.btn_reg::after{
+  border: transparent;
+}
+.btn_reg{
+  margin: 0;
+  width: 100%;
+  padding: 0;
+  border-radius: 100rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  border: 1px solid #e55400;
+  color: #e55400;
+  background-color: #fff;
+  font-size: 36rpx;
+  
+}

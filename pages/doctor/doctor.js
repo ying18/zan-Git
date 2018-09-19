@@ -26,7 +26,7 @@ Page({
         },
         {
           "pagePath": "/pages/doctor/myServe/myServe?doctorid=0",
-          "text": "我的咨询",
+          "text": "我的患者",
           "iconPath": "../../images/message.png",
           "selectedIconPath": "../../images/message-fill.png",
           "selectedColor": "#E55400",
@@ -63,7 +63,7 @@ Page({
    */
   onReady: function () {
     wx.setNavigationBarTitle({
-      title: '我的工作室'
+      title: '吴焱医生工作室'
     })
   },
 
@@ -107,7 +107,20 @@ Page({
   /**
    * 用户点击右上角分享
    */
-  onShareAppMessage: function () {
-  
+  //右上角分享功能
+  onShareAppMessage: function (res) {
+    var that = this;
+    return {
+      title: '吴焱医生工作室',
+      path: '/pages/doctor/doctor?doctorid=0',
+      success: function (res) {
+        // 转发成功
+
+        that.shareClick();
+      },
+      fail: function (res) {
+        // 转发失败
+      }
+    }
   }
 })

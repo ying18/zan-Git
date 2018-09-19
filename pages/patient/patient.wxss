@@ -3,10 +3,10 @@
 .doctor_list_item{
   display: flex;
   flex-direction: row;
-  align-items: center;
   background-color: #fff;
   padding: 30rpx;
   margin-bottom: 1px;
+  color: #888;
 }
 .doctor_icon{
   width: 80rpx;
@@ -16,13 +16,27 @@
 }
 .doctor_name{
   font-size: 14px;
+  color: #222;
 }
-.doctor_keshi{
-  margin: 0 20rpx 0 30rpx;
-  opacity: 0.7;
-  vertical-align: middle;
+
+.zx_box{
+  display: flex;
+  flex-direction: row;
 }
-.doctor_level{
-  opacity: 0.7;
+.zx_item{
+  margin-top: 20rpx;
+  margin-right: 40rpx;
+  border: 1px solid #ddd;
+  border-radius: 100px;
+  padding: 8rpx 20rpx;
+  color: #222;
+}
+.zx_img{
+  width: 32rpx;
+  height: 32rpx;
   vertical-align: middle;
+  margin-right: 10rpx;
+}
+.zx_price{
+  margin-left: 10rpx;
 }

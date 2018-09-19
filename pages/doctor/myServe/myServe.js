@@ -26,7 +26,7 @@ Page({
         },
         {
           "pagePath": "/pages/doctor/myServe/myServe?doctorid=0",
-          "text": "我的咨询",
+          "text": "我的患者",
           "iconPath": "../../../images/message.png",
           "selectedIconPath": "../../../images/message-fill.png",
           "selectedColor": "#E55400",
@@ -57,7 +57,7 @@ Page({
    */
   onReady: function () {
     wx.setNavigationBarTitle({
-      title: '我的咨询'
+      title: '我的患者'
     })
   },
   

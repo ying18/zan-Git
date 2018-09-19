@@ -9,7 +9,7 @@
         <text class='earnings_lists_e'><text>收入 ￥109.80</text> / <text>提现 ￥9.00</text></text>
       </view>
       <view class='earnings_lists_list'>
-        <image class='earnings_lists_i' src='../../../images/icon-tixian.svg'></image>
+        <image class='earnings_lists_i' src='http://wx.allifetech.com/WeApp/zanzan/images/icon-tixian.svg'></image>
         <view class='earnings_lists_r'>
           <text class='earnings_lists_n'>-9.00</text>
           <text class='earnings_lists_c'>提现</text>
@@ -17,17 +17,17 @@
         </view>
       </view>
       <view class='earnings_lists_list'>
-        <image class='earnings_lists_i' src='../../../images/icon-phone-call.svg'></image>
+        <image class='earnings_lists_i' src='http://wx.allifetech.com/WeApp/zanzan/images/icon-phone-call.svg'></image>
         <view class='earnings_lists_r'>
-          <text class='earnings_lists_n'>+99.90</text>
+          <text class='earnings_lists_n highlight'>+99.90</text>
           <text class='earnings_lists_c'>电话咨询—欧阳锋</text>
           <text class='earnings_lists_t'>9月1日 12:40</text>
         </view>
       </view>
       <view class='earnings_lists_list'>
-        <image class='earnings_lists_i' src='../../../images/icon-message-square.svg'></image>
+        <image class='earnings_lists_i' src='http://wx.allifetech.com/WeApp/zanzan/images/icon-message-square.svg'></image>
         <view class='earnings_lists_r'>
-          <text class='earnings_lists_n'>+9.90</text>
+          <text class='earnings_lists_n highlight'>+9.90</text>
           <text class='earnings_lists_c'>图文咨询—杨过</text>
           <text class='earnings_lists_t'>9月1日 8:09</text>
         </view>
@@ -38,17 +38,17 @@
         <text class='earnings_lists_e'><text>收入 ￥109.80</text> / <text>提现 ￥0.00</text></text>
       </view>
       <view class='earnings_lists_list'>
-        <image class='earnings_lists_i' src='../../../images/icon-phone-call.svg'></image>
+        <image class='earnings_lists_i' src='http://wx.allifetech.com/WeApp/zanzan/images/icon-phone-call.svg'></image>
         <view class='earnings_lists_r'>
-          <text class='earnings_lists_n'>+99.90</text>
+          <text class='earnings_lists_n highlight'>+99.90</text>
           <text class='earnings_lists_c'>电话咨询—欧阳锋</text>
           <text class='earnings_lists_t'>8月23日 12:40</text>
         </view>
       </view>
       <view class='earnings_lists_list'>
-        <image class='earnings_lists_i' src='../../../images/icon-message-square.svg'></image>
+        <image class='earnings_lists_i' src='http://wx.allifetech.com/WeApp/zanzan/images/icon-message-square.svg'></image>
         <view class='earnings_lists_r'>
-          <text class='earnings_lists_n'>+9.90</text>
+          <text class='earnings_lists_n highlight'>+9.90</text>
           <text class='earnings_lists_c'>图文咨询—杨过</text>
           <text class='earnings_lists_t'>8月1日 8:09</text>
         </view>

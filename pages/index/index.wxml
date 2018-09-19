@@ -4,13 +4,20 @@
 <!-- 未登录的用户，打开小程序后进入页面，相当于登录页面 -->
 <!-- 点击“微信登录”进行授权登录，授权之后判断用户角色：【医生角色】进入“我的工作室”；【非医生角色】进入“我的私人医生” -->
 
-<button>微信登录</button>
+<view class='login_wrap'>
+  <view style='margin-top:200rpx;'><image class='app_icon' src='../../images/app_icon.png'></image></view>
+  <view style='position: absolute;bottom:80rpx;width:100%;'>
+  <view style='padding:0 80rpx;'>
+    <button class='btn_login' bindtap='gotoMy'>微信登录</button>
+    <button class='btn_reg'>医生认证</button>
+    </view>
+  </view>
+</view>
 
-
-  <view style='margin: 30rpx 0;padding:30rpx;background-color: #fff;font-size: 14px;' bindtap='gotoMy'>【患者角色】我的私人医生</view>
+  <!-- <view style='margin: 30rpx 0;padding:30rpx;background-color: #fff;font-size: 14px;' bindtap='gotoMy'>【患者角色】我的私人医生</view>
 
  
-  <view style='margin: 30rpx 0;padding:30rpx;background-color: #fff;font-size: 14px;' bindtap='gotoMyPro'>【医生角色】我的工作室</view>
+  <view style='margin: 30rpx 0;padding:30rpx;background-color: #fff;font-size: 14px;' bindtap='gotoMyPro'>【医生角色】我的工作室</view> -->
 
   <!-- <text>测试网络请求</text>
   <navigator url='/pages/test/test' style='margin: 30rpx 0;padding:30rpx;background-color: #fff;font-size: 14px;'>链接</navigator> -->

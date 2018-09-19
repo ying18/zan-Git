@@ -1,6 +1,7 @@
 
 .earnings_lists{
-  height: calc(100vh - 383rpx);
+  /* height: calc(100vh - 383rpx); */
+  height: 100vh;
 }
 .earnings_lists_date{
   padding: 40rpx 40rpx 30rpx;
@@ -39,4 +40,7 @@
 .earnings_lists_t{
   opacity: 0.6;
   font-size: 10px;
+}
+.highlight{
+  color: #e55400;
 }

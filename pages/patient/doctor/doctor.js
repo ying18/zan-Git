@@ -34,7 +34,7 @@ Page({
 
     // 定义导航条页面标题
     this.setData({
-      title: UseDoctorData.doctorName + '工作室'
+      title: UseDoctorData.doctorName + '医生工作室'
     })
     wx.setNavigationBarTitle({
       title: this.data.title
@@ -67,8 +67,8 @@ Page({
       console.log(res.target)
     }
     return {
-      title: doctorData.doctorData[this.data.doctorid].doctorName + '工作室',
-      path: '/pages/patient/patient?doctorid=' + doctorData.doctorData[this.data.doctorid].doctorid // 路径，传递参数到指定页面。
+      title: doctorData.doctorData[this.data.doctorid].doctorName + '医生工作室',
+      path: '/pages/patient/doctor/doctor?doctorid=' + doctorData.doctorData[this.data.doctorid].doctorid // 路径，传递参数到指定页面。
     }
   },
 

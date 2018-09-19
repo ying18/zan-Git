@@ -8,7 +8,8 @@
         <view class='profile'>
           <button class='share' id="shareBtn" open-type="share" data-doctorid="{{doctorid}}"><image class='share_img' src='http://wx.allifetech.com/WeApp/zanzan/images/icon-share.svg'></image>推荐</button>
           <view class="doctor_name"><text>{{doctorName}}</text></view>
-          <view><text class='mr10'>{{doctor_keshi}}</text><text>{{doctor_level}}</text></view>
+          <view><text>{{doctor_keshi}}</text></view>
+          <view><text>{{doctor_level}}</text></view>
           <view><text>{{doctor_hospital}}</text></view>
           <view class='profile_tag'><text class='profile_tag_t'>{{tag_hospital}}</text></view>
         </view>

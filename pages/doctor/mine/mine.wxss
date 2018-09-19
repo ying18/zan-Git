@@ -21,6 +21,43 @@
 
 .earnings_more{
   float: right;
-  padding-right:40rpx;
+  margin-right:40rpx;
   opacity: 0.8;
+}
+
+.tit_div{
+  font-size: 14px;
+  padding: 30rpx 40rpx;
+  border-bottom: 1px solid #FAF9F5;
+}
+.features_wrap{
+  overflow: hidden;
+}
+.feature_item{
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  border-left: 1px solid #FAF9F5;
+  border-bottom: 1px solid #FAF9F5;
+  padding: 30rpx 0;
+  float: left;
+  box-sizing:border-box;
+}
+.feature_img{
+  width: 54rpx;
+  height: 54rpx;
+  margin: 0 30rpx 0 40rpx;
+}
+.feature_cont{
+  font-size: 14px;
+  display: block;
+}
+.feature_state{
+  font-size: 12px;
+  display: block;
+  color: #E55400;
+  padding-top: 10rpx;
 }

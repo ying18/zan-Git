@@ -5,9 +5,15 @@
     <block wx:for="{{UseDoctorData}}" wx:for-item="item" wx:key="key">
       <view class='doctor_list_item' bindtap='gotoPatient' data-doctorid="{{item.doctorid}}">
         <image class='doctor_icon' src='{{item.doctorIcon}}'></image>
-        <text class='doctor_name'>{{item.doctorName}}</text>
-        <text class='doctor_keshi'>{{item.doctor_keshi}}</text>
-        <text class='doctor_level'>{{item.doctor_level}}</text>
+        <view>
+          <view><text class='doctor_name mr10'>{{item.doctorName}}</text><text>{{item.doctor_level}}</text></view>
+          <view class='mt10'><text>{{item.doctor_keshi}}</text></view>
+          <view><text>{{item.doctor_hospital}}</text></view>
+          <view class='zx_box'>
+            <view class='zx_item' bindtap='gotoTw' data-doctorid="{{doctorid}}"><image class='zx_img' src='http://wx.allifetech.com/WeApp/zanzan/images/icon-message-square.svg'></image>图文<text class='zx_price'>{{item.price_twzx}}</text></view>
+            <view class='zx_item' bindtap='gotoDh' data-doctorid="{{doctorid}}"><image class='zx_img' src='http://wx.allifetech.com/WeApp/zanzan/images/icon-phone-call.svg'></image>电话<text class='zx_price'>{{item.price_dhzx}}</text></view>
+          </view>
+        </view>
       </view>
     </block>
   </view>

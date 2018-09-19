@@ -21,7 +21,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#222",
-    "navigationBarTitleText": "赞赞医生",
+    "navigationBarTitleText": "赞赞健康",
     "navigationBarTextStyle": "#fff"
   },
   "networkTimeout": {
