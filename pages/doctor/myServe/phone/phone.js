@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    state: 'notStarted',
+    state: 'calling',
   },
 
   /**
@@ -20,7 +20,7 @@ Page({
    */
   onReady: function () {
     wx.setNavigationBarTitle({
-      title: '患者'
+      title: '电话咨询'
     })
   },
 

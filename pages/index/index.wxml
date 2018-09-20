@@ -8,7 +8,8 @@
   <view style='margin-top:200rpx;'><image class='app_icon' src='../../images/app_icon.png'></image></view>
   <view style='position: absolute;bottom:80rpx;width:100%;'>
   <view style='padding:0 80rpx;'>
-    <button class='btn_login' bindtap='gotoMy'>微信登录</button>
+    <button class='btn_login' bindtap='gotoMy'>患者登录</button>
+    <button class='btn_login' bindtap='gotoMyPro'>医生登录</button>
     <button class='btn_reg'>医生认证</button>
     </view>
   </view>

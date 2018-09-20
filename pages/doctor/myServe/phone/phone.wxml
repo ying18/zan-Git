@@ -20,7 +20,7 @@
   </view>
   <!-- 正在服务 -->
   <view wx:elif="{{state == 'calling'}}">
-    <button class='btn'>结束咨询</button><button class='btn btn_outline'>重拨电话</button>
+    <button class='btn'>结束服务</button><button class='btn btn_outline'>重拨电话</button>
   </view>
   <!-- 服务结束 -->
   <view wx:else="{{state == 'closed'}}">
