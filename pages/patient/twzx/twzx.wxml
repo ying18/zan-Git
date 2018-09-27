@@ -8,7 +8,7 @@
         </view>
     <!-- 上传图片 -->
         <view class='upload'>
-          <button bindtap="uploadImg">上传图片</button>
+          <button class='add_img' bindtap="uploadImg"><image class='add_img_i' src='../../../images/add_img.png'></image></button>
         </view>
 
     </view>

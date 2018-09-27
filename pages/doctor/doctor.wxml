@@ -9,7 +9,6 @@
       <view class="doctor_profile">
         <image class='avatar' src='{{doctorIcon}}'></image>
         <view class='profile'>
-          <button class='edit'>编辑资料</button>
           <view class="doctor_name"><text>{{doctorName}}</text></view>
           <view><text>{{doctor_keshi}}</text></view>
           <view><text>{{doctor_level}}</text></view>
