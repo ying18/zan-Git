@@ -73,10 +73,14 @@ justify-content:space-between;
 }
 .item-container-new{
   background: #f00;
-  height: 16rpx;
-  width: 16rpx;
+  height: 28rpx;
+  width: 28rpx;
   position: absolute;
   top: 40rpx;
   left: 100rpx;
   border-radius: 100%;
+  text-align: center;
+  color: #fff;
+  line-height: 28rpx;
+  font-size: 12px;
 }

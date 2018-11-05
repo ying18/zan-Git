@@ -34,14 +34,16 @@
 
 .edit{
   float: right;
-  font-size: 12px;
-  background: #fff;
-  color: #E55400;
-  padding: 0 8px;
-  line-height: 2;
+  padding: 0;
+  width: 32rpx;
+  height: 32rpx;
+  background-image: url(http://wx.allifetech.com/WeApp/zan-Git/images/edit.png);
+  background-size: cover;
+  background-color: transparent;
 }
 .edit::after{
 border: none;
+  background-color: transparent;
 }
 
 .edit_g{

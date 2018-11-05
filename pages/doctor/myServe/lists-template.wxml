@@ -2,7 +2,7 @@
         <scroll-view scroll-y="true" style="height: 100%; background-color: #FFF;">
           <navigator url='/pages/doctor/myServe/chat/chat'>
             <view class="item-container">
-              <view class='item-container-new'></view>
+              <view class='item-container-new'>1</view>
               <view class='item-container-r'>
                 <text class='item-container-time'>15:00</text>
               </view>
@@ -15,7 +15,7 @@
           </navigator>
           <navigator url='/pages/doctor/myServe/phone/phone'>
             <view class="item-container">
-              <view class='item-container-new'></view>
+              <view class='item-container-new'>9</view>
               <view class='item-container-r'>
                 <text class='item-container-time'>15:00</text>
               </view>

@@ -54,7 +54,7 @@
               </view>
               <view class='v_process_wrap'>
                 <image class='v_process_icon' src="../../../../images/process2_2.png"></image>
-                <text class='v_process_cont_end'>发起电话咨询</text>
+                <text class='v_process_cont'>发起电话咨询</text>
                 <text class='v_process_time'>2018-08-03 17:20:20</text>
               </view>
             </view>

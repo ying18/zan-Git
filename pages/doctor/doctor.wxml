@@ -42,11 +42,15 @@
       </view>
 
       <view class='fff_bg mb10'>
-        <view class='tit_div'>我的简介</view>
+        <view class='tit_div'><button class='edit'></button> 我的简介</view>
         <view class='cont_div'>
-          <text class='cont_div_t'>擅长疾病</text>
           <text class='cont_div_c'>{{scjb_cont}}</text>
-          <text class='cont_div_t mt15'>背景介绍</text>
+        </view>
+      </view>
+
+      <view class='fff_bg mb10'>
+        <view class='tit_div'><button class='edit'></button>擅长疾病</view>
+        <view class='cont_div'>
           <text class='cont_div_c'>{{bjjs_cont}}</text>
         </view>
       </view>

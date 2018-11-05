@@ -46,7 +46,8 @@ top: 8rpx;
 }
 .v_process_cont_end{
   display: block;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: bold;
 }
 .v_process_time{
   display: block;
